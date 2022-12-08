@@ -1,0 +1,55 @@
+.spaceX_details {
+	width: 80vw;
+	margin: 1rem 0;
+	padding: 1rem;
+	background-color: var(--color-secondary);
+	box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.35);
+	-webkit-box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.35);
+	-moz-box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.35);
+	transition: all 0.3s;
+}
+.spaceX_details:hover {
+	scale: 1.01;
+	box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.65);
+	-webkit-box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.65);
+	-moz-box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.65);
+}
+
+.spaceX_details_div > h1 {
+	font: 600 1.5rem roboto;
+}
+
+.spaceX_details_div > h2 {
+	font: 300 1.1rem roboto;
+}
+
+.spaceX_details_div > p {
+	font: 200 0.8rem roboto;
+}
+.spaceX_details_div > button {
+	width: 7rem;
+	height: 1.5rem;
+	background-color: var(--color-primary);
+	border: none;
+	color: white;
+	margin: 0.5rem 0;
+	transition: all 0.3s;
+}
+
+.spaceX_details_div > button:hover {
+	background-color: var(--color-secondary);
+	color: var(--color-primary);
+	border: 1px solid var(--color-primary);
+}
+
+@media screen and (max-width: 500px) {
+	.spaceX_details {
+		width: 85vw;
+		margin: 0.7rem 0;
+		padding: 1rem;
+	}
+
+	.spaceX_details_div > p {
+		font: 200 0.9rem roboto;
+	}
+}

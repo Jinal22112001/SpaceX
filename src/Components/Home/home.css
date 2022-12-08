@@ -1,0 +1,19 @@
+.HomeContainer {
+	min-height: 100vh;
+	background-color: var(--color-secondary);
+}
+.HomeContainer > h1 {
+	padding-top: 4.5rem;
+	text-align: center;
+	color: var(--color-primary);
+}
+
+.DataContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	overflow-x: hidden;
+	padding: 1rem 0;
+	/* margin: 2rem 0; */
+}
